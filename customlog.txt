@@ -1,0 +1,235 @@
+2022-12-19 02:55:49.797  INFO 57587 --- [main] c.s.userapp.UserappApplicationTests      : Starting UserappApplicationTests using Java 11.0.2 on SOUMODUT-M-7J90 with PID 57587 (started by soumosir in /Users/soumosir/Documents/ciscoAssignment/userapp)
+2022-12-19 02:55:49.799  INFO 57587 --- [main] c.s.userapp.UserappApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2022-12-19 02:55:51.245  INFO 57587 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-19 02:55:51.312  INFO 57587 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 2 JPA repository interfaces.
+2022-12-19 02:55:52.548  INFO 57587 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-12-19 02:55:52.560  INFO 57587 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-19 02:55:52.562  INFO 57587 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-19 02:55:52.735  INFO 57587 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-19 02:55:52.736  INFO 57587 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2889 ms
+2022-12-19 02:55:52.881  INFO 57587 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-19 02:55:53.114  INFO 57587 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-19 02:55:53.153  INFO 57587 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb1'
+2022-12-19 02:55:53.568  INFO 57587 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-19 02:55:53.618  INFO 57587 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-12-19 02:55:53.813  INFO 57587 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-19 02:55:53.943  INFO 57587 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-19 02:55:54.669  INFO 57587 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-19 02:55:54.677  INFO 57587 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19 02:55:55.495  WARN 57587 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-19 02:55:56.521  INFO 57587 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 56203 (http) with context path ''
+2022-12-19 02:55:56.541  INFO 57587 --- [main] c.s.userapp.UserappApplicationTests      : Started UserappApplicationTests in 7.574 seconds (JVM running for 9.588)
+2022-12-19 02:55:56.867  INFO 57587 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-19 02:55:56.869  INFO 57587 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-19 02:55:56.872  INFO 57587 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-12-19 02:55:57.281  INFO 57587 --- [http-nio-auto-1-exec-1] c.s.u.service.UserServiceImplementation  : Saving user with username soumo123.
+2022-12-19 02:55:59.499  INFO 57587 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19 02:55:59.501  INFO 57587 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-12-19 02:55:59.531  INFO 57587 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-19 02:55:59.542  INFO 57587 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-19 03:50:18.972  INFO 61255 --- [main] c.s.userapp.UserappApplicationTests      : Starting UserappApplicationTests using Java 18.0.2 on SOUMODUT-M-7J90 with PID 61255 (started by soumosir in /Users/soumosir/Documents/ciscoAssignment/userapp)
+2022-12-19 03:50:18.972  INFO 61255 --- [main] c.s.userapp.UserappApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2022-12-19 03:50:19.224  INFO 61255 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-19 03:50:19.245  INFO 61255 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces.
+2022-12-19 03:50:19.547  INFO 61255 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-12-19 03:50:19.558  INFO 61255 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-19 03:50:19.559  INFO 61255 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-19 03:50:19.616  INFO 61255 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-19 03:50:19.616  INFO 61255 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 633 ms
+2022-12-19 03:50:19.636  INFO 61255 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-19 03:50:19.731  INFO 61255 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-19 03:50:19.737  INFO 61255 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb1'
+2022-12-19 03:50:19.838  INFO 61255 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-19 03:50:19.865  INFO 61255 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-12-19 03:50:19.935  INFO 61255 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-19 03:50:19.993  INFO 61255 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-19 03:50:20.225  INFO 61255 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-19 03:50:20.229  INFO 61255 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19 03:50:20.422  WARN 61255 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-19 03:50:20.653  INFO 61255 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 57013 (http) with context path ''
+2022-12-19 03:50:20.658  INFO 61255 --- [main] c.s.userapp.UserappApplicationTests      : Started UserappApplicationTests in 1.832 seconds (JVM running for 2.334)
+2022-12-19 03:50:20.783  INFO 61255 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-19 03:50:20.784  INFO 61255 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-19 03:50:20.785  INFO 61255 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-12-19 03:50:20.915  INFO 61255 --- [http-nio-auto-1-exec-1] c.s.u.service.UserServiceImplementation  : Saving user with username soumo123.
+2022-12-19 03:50:20.971  INFO 61255 --- [main] o.s.t.c.s.DefaultTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-12-19 03:50:20.971  INFO 61255 --- [main] o.s.t.c.s.DefaultTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@41962299, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3f910f36, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6421bc7e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2e2546bf, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5e572b08, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6908674b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@a3e458, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4b74a4d, org.springframework.test.context.event.EventPublishingTestExecutionListener@63df2eb8, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@49c72fb7, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@565983f3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@68024e57, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@72321701, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2f83467, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@182469d0]
+2022-12-19 03:50:21.037  INFO 61255 --- [main] c.s.u.service.UserServiceImplementation  : Saving user with username soumosir.
+2022-12-19 03:50:21.039  INFO 61255 --- [main] c.s.u.service.UserServiceImplementation  : Updating user with username soumosir.
+2022-12-19 03:50:23.070  INFO 61255 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19 03:50:23.071  INFO 61255 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-12-19 03:50:23.076  INFO 61255 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-19 03:50:23.077  INFO 61255 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-19 04:01:59.309  INFO 62210 --- [main] com.soumosir.userapp.UserappApplication  : Starting UserappApplication v0.0.1-SNAPSHOT using Java 11.0.12 on SOUMODUT-M-7J90 with PID 62210 (/Users/soumosir/Documents/ciscoAssignment/userapp/target/userapp-0.0.1-SNAPSHOT.jar started by soumosir in /Users/soumosir/Documents/ciscoAssignment/userapp)
+2022-12-19 04:01:59.316  INFO 62210 --- [main] com.soumosir.userapp.UserappApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-12-19 04:02:01.468  INFO 62210 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-19 04:02:01.592  INFO 62210 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97 ms. Found 1 JPA repository interfaces.
+2022-12-19 04:02:03.132  INFO 62210 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9292 (http)
+2022-12-19 04:02:03.155  INFO 62210 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-19 04:02:03.155  INFO 62210 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-19 04:02:03.293  INFO 62210 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-19 04:02:03.293  INFO 62210 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3792 ms
+2022-12-19 04:02:03.369  INFO 62210 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-19 04:02:03.951  INFO 62210 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-19 04:02:03.991  INFO 62210 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-12-19 04:02:04.432  INFO 62210 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-19 04:02:04.517  INFO 62210 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-12-19 04:02:04.740  INFO 62210 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-19 04:02:05.004  INFO 62210 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-19 04:02:06.024  INFO 62210 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-19 04:02:06.039  INFO 62210 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19 04:02:06.892  WARN 62210 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-19 04:02:07.652  INFO 62210 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9292 (http) with context path ''
+2022-12-19 04:02:07.665  INFO 62210 --- [main] com.soumosir.userapp.UserappApplication  : Started UserappApplication in 9.728 seconds (JVM running for 10.625)
+2022-12-19 04:02:13.475  INFO 62210 --- [http-nio-9292-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-19 04:02:13.477  INFO 62210 --- [http-nio-9292-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-19 04:02:13.485  INFO 62210 --- [http-nio-9292-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2022-12-19 04:02:14.340  INFO 62210 --- [http-nio-9292-exec-2] c.s.u.service.UserServiceImplementation  : Saving user with username soumosir_dutta.
+2022-12-19 04:02:35.424 ERROR 62210 --- [http-nio-9292-exec-3] c.s.u.e.ApplicationExceptionHandler      : Text '11/12/199' could not be parsed at index 6
+2022-12-19 04:02:39.237 ERROR 62210 --- [http-nio-9292-exec-4] c.s.u.e.ApplicationExceptionHandler      : {errorMessage={name=Name should be less than 20 charectors.}}
+2022-12-19 04:03:29.329 ERROR 62210 --- [http-nio-9292-exec-8] c.s.u.e.ApplicationExceptionHandler      : User with username soumosir_dutta does not exists.
+2022-12-19 04:03:35.451 ERROR 62210 --- [http-nio-9292-exec-10] c.s.u.e.ApplicationExceptionHandler      : Text '11/12/199' could not be parsed at index 6
+2022-12-19 04:03:38.682 ERROR 62210 --- [http-nio-9292-exec-1] c.s.u.e.ApplicationExceptionHandler      : User with username soumosir_dutta does not exists.
+2022-12-19 04:04:59.612  INFO 62210 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19 04:04:59.614  INFO 62210 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-12-19 04:04:59.634  INFO 62210 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-19 04:04:59.643  INFO 62210 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-19 04:05:52.851  INFO 62436 --- [main] com.soumosir.userapp.UserappApplication  : Starting UserappApplication v0.0.1-SNAPSHOT using Java 11.0.12 on SOUMODUT-M-7J90 with PID 62436 (/Users/soumosir/Documents/ciscoAssignment/userapp/target/userapp-0.0.1-SNAPSHOT.jar started by soumosir in /Users/soumosir/Documents/ciscoAssignment/userapp)
+2022-12-19 04:05:52.859  INFO 62436 --- [main] com.soumosir.userapp.UserappApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-12-19 04:05:55.082  INFO 62436 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-19 04:05:55.216  INFO 62436 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 105 ms. Found 1 JPA repository interfaces.
+2022-12-19 04:05:56.829  INFO 62436 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9292 (http)
+2022-12-19 04:05:56.854  INFO 62436 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-19 04:05:56.855  INFO 62436 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-19 04:05:57.003  INFO 62436 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-19 04:05:57.004  INFO 62436 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3945 ms
+2022-12-19 04:05:57.090  INFO 62436 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-19 04:05:57.668  INFO 62436 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-19 04:05:57.697  INFO 62436 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-12-19 04:05:58.073  INFO 62436 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-19 04:05:58.172  INFO 62436 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-12-19 04:05:58.422  INFO 62436 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-19 04:05:58.727  INFO 62436 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-19 04:05:59.735  INFO 62436 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-19 04:05:59.749  INFO 62436 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19 04:06:00.625  WARN 62436 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-19 04:06:01.431  INFO 62436 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9292 (http) with context path ''
+2022-12-19 04:06:01.452  INFO 62436 --- [main] com.soumosir.userapp.UserappApplication  : Started UserappApplication in 10.048 seconds (JVM running for 11.046)
+2022-12-19 04:06:11.258  INFO 62436 --- [http-nio-9292-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-19 04:06:11.260  INFO 62436 --- [http-nio-9292-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-19 04:06:11.264  INFO 62436 --- [http-nio-9292-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-12-19 04:06:12.005  INFO 62436 --- [http-nio-9292-exec-1] c.s.u.service.UserServiceImplementation  : Saving user with username soumosir_dutta.
+2022-12-19 04:06:19.463  INFO 62436 --- [http-nio-9292-exec-2] c.s.u.service.UserServiceImplementation  : Updating user with username soumosir_dutta.
+2022-12-19 04:06:26.807  INFO 62436 --- [http-nio-9292-exec-3] c.s.u.service.UserServiceImplementation  : Deleting user with username soumosir_dutta.
+2022-12-19 04:06:40.498 ERROR 62436 --- [http-nio-9292-exec-6] c.s.u.e.ApplicationExceptionHandler      : User with username soumosir_dutta does not exists.
+2022-12-19 04:08:51.454  INFO 62436 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19 04:08:51.456  INFO 62436 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-12-19 04:08:51.481  INFO 62436 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-19 04:08:51.512  INFO 62436 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-19 04:08:55.556  INFO 62894 --- [main] com.soumosir.userapp.UserappApplication  : Starting UserappApplication v0.0.1-SNAPSHOT using Java 11.0.12 on SOUMODUT-M-7J90 with PID 62894 (/Users/soumosir/Documents/ciscoAssignment/userapp/target/userapp-0.0.1-SNAPSHOT.jar started by soumosir in /Users/soumosir/Documents/ciscoAssignment/userapp)
+2022-12-19 04:08:55.570  INFO 62894 --- [main] com.soumosir.userapp.UserappApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-12-19 04:08:57.807  INFO 62894 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-19 04:08:57.943  INFO 62894 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106 ms. Found 1 JPA repository interfaces.
+2022-12-19 04:08:59.573  INFO 62894 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9292 (http)
+2022-12-19 04:08:59.731  INFO 62894 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3972 ms
+2022-12-19 04:08:59.806  INFO 62894 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-19 04:09:00.376  INFO 62894 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-19 04:09:00.431  INFO 62894 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-12-19 04:09:00.854  INFO 62894 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-19 04:09:00.939  INFO 62894 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-12-19 04:09:01.163  INFO 62894 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-19 04:09:01.437  INFO 62894 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-19 04:09:02.474  INFO 62894 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-19 04:09:02.488  INFO 62894 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19 04:09:03.421  WARN 62894 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-19 04:09:04.202  INFO 62894 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9292 (http) with context path ''
+2022-12-19 04:09:04.218  INFO 62894 --- [main] com.soumosir.userapp.UserappApplication  : Started UserappApplication in 10.147 seconds (JVM running for 11.122)
+2022-12-19 04:09:06.288  INFO 62894 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19 04:09:06.289  INFO 62894 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-12-19 04:09:06.298  INFO 62894 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-19 04:09:06.305  INFO 62894 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-19 04:09:16.944  INFO 62917 --- [main] com.soumosir.userapp.UserappApplication  : Starting UserappApplication using Java 11.0.2 on SOUMODUT-M-7J90 with PID 62917 (/Users/soumosir/Documents/ciscoAssignment/userapp/target/classes started by soumosir in /Users/soumosir/Documents/ciscoAssignment/userapp)
+2022-12-19 04:09:16.951  INFO 62917 --- [main] com.soumosir.userapp.UserappApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-12-19 04:09:18.380  INFO 62917 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-19 04:09:18.464  INFO 62917 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interfaces.
+2022-12-19 04:09:19.471  INFO 62917 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9292 (http)
+2022-12-19 04:09:19.482  INFO 62917 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-19 04:09:19.483  INFO 62917 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-19 04:09:19.630  INFO 62917 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-19 04:09:19.630  INFO 62917 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2494 ms
+2022-12-19 04:09:19.723  INFO 62917 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-19 04:09:19.930  INFO 62917 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-19 04:09:19.972  INFO 62917 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-12-19 04:09:20.377  INFO 62917 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-19 04:09:20.417  INFO 62917 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-12-19 04:09:20.575  INFO 62917 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-19 04:09:20.685  INFO 62917 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-19 04:09:21.287  INFO 62917 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-19 04:09:21.295  INFO 62917 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19 04:09:21.958  WARN 62917 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-19 04:09:22.488  INFO 62917 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9292 (http) with context path ''
+2022-12-19 04:09:22.501  INFO 62917 --- [main] com.soumosir.userapp.UserappApplication  : Started UserappApplication in 6.431 seconds (JVM running for 7.146)
+2022-12-19 04:09:29.813  INFO 62917 --- [http-nio-9292-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-19 04:09:29.814  INFO 62917 --- [http-nio-9292-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-19 04:09:29.823  INFO 62917 --- [http-nio-9292-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2022-12-19 04:09:30.078 ERROR 62917 --- [http-nio-9292-exec-1] c.s.u.e.ApplicationExceptionHandler      : User with username soumosir_dutta does not exists.
+2022-12-19 04:10:53.095 ERROR 62917 --- [http-nio-9292-exec-5] c.s.u.e.ApplicationExceptionHandler      : User with username soumosir_dutta does not exists.
+2022-12-19 04:12:28.688  INFO 62917 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19 04:12:28.693  INFO 62917 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-12-19 04:12:28.728  INFO 62917 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-19 04:12:28.746  INFO 62917 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-19 04:12:34.306  INFO 63176 --- [main] com.soumosir.userapp.UserappApplication  : Starting UserappApplication using Java 11.0.2 on SOUMODUT-M-7J90 with PID 63176 (/Users/soumosir/Documents/ciscoAssignment/userapp/target/classes started by soumosir in /Users/soumosir/Documents/ciscoAssignment/userapp)
+2022-12-19 04:12:34.313  INFO 63176 --- [main] com.soumosir.userapp.UserappApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-12-19 04:12:35.806  INFO 63176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-19 04:12:35.896  INFO 63176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 1 JPA repository interfaces.
+2022-12-19 04:12:36.948  INFO 63176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9292 (http)
+2022-12-19 04:12:36.960  INFO 63176 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-19 04:12:36.964  INFO 63176 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-19 04:12:37.114  INFO 63176 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-19 04:12:37.114  INFO 63176 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2637 ms
+2022-12-19 04:12:37.203  INFO 63176 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-19 04:12:37.427  INFO 63176 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-19 04:12:37.478  INFO 63176 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-12-19 04:12:37.880  INFO 63176 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-19 04:12:37.928  INFO 63176 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-12-19 04:12:38.109  INFO 63176 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-19 04:12:38.223  INFO 63176 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-19 04:12:38.889  INFO 63176 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-19 04:12:38.899  INFO 63176 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19 04:12:39.574  WARN 63176 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-19 04:12:40.085  INFO 63176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9292 (http) with context path ''
+2022-12-19 04:12:40.098  INFO 63176 --- [main] com.soumosir.userapp.UserappApplication  : Started UserappApplication in 6.768 seconds (JVM running for 7.468)
+2022-12-19 04:12:44.238  INFO 63176 --- [http-nio-9292-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-19 04:12:44.240  INFO 63176 --- [http-nio-9292-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-19 04:12:44.243  INFO 63176 --- [http-nio-9292-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-12-19 04:12:44.607  INFO 63176 --- [http-nio-9292-exec-2] c.s.u.service.UserServiceImplementation  : Saving user with username soumosir_dutta.
+2022-12-19 04:12:49.436 ERROR 63176 --- [http-nio-9292-exec-3] c.s.u.e.ApplicationExceptionHandler      : User with same username soumosir_dutta already exists.
+2022-12-19 04:14:00.967  INFO 63176 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19 04:14:00.970  INFO 63176 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-12-19 04:14:01.004  INFO 63176 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-19 04:14:01.015  INFO 63176 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-19 04:16:33.700  INFO 63545 --- [main] com.soumosir.userapp.UserappApplication  : Starting UserappApplication v0.0.1-SNAPSHOT using Java 11.0.12 on SOUMODUT-M-7J90 with PID 63545 (/Users/soumosir/Documents/ciscoAssignment/userapp/target/userapp-0.0.1-SNAPSHOT.jar started by soumosir in /Users/soumosir/Documents/ciscoAssignment/userapp)
+2022-12-19 04:16:33.708  INFO 63545 --- [main] com.soumosir.userapp.UserappApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-12-19 04:16:35.926  INFO 63545 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-19 04:16:36.063  INFO 63545 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 107 ms. Found 1 JPA repository interfaces.
+2022-12-19 04:16:37.592  INFO 63545 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9292 (http)
+2022-12-19 04:16:37.617  INFO 63545 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-19 04:16:37.617  INFO 63545 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-19 04:16:37.751  INFO 63545 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-19 04:16:37.754  INFO 63545 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3875 ms
+2022-12-19 04:16:37.847  INFO 63545 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-19 04:16:38.446  INFO 63545 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-19 04:16:38.489  INFO 63545 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-12-19 04:16:38.919  INFO 63545 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-19 04:16:39.019  INFO 63545 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-12-19 04:16:39.295  INFO 63545 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-19 04:16:39.600  INFO 63545 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-19 04:16:40.777  INFO 63545 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-19 04:16:40.796  INFO 63545 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19 04:16:41.655  WARN 63545 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-19 04:16:42.409  INFO 63545 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9292 (http) with context path ''
+2022-12-19 04:16:42.423  INFO 63545 --- [main] com.soumosir.userapp.UserappApplication  : Started UserappApplication in 10.152 seconds (JVM running for 11.16)
+2022-12-19 04:27:37.443  INFO 63545 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19 04:27:37.446  INFO 63545 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-12-19 04:27:37.477  INFO 63545 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-19 04:27:37.487  INFO 63545 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

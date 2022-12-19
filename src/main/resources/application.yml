@@ -1,0 +1,23 @@
+
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+  jpa:
+    spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+
+
+server:
+  port: 9292
+
+logging:
+  file:
+    path: /
+    name: customlog.txt
+  level:
+    com.umd.hrm: debug
